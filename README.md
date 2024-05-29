@@ -14,22 +14,10 @@ Tested and developed on node.js 4.1+
 
 I also have a repo available for PC and Arm 
 
-```bash
-wget -O - http://repo.ags131.com/install.sh | sudo bash -
-sudo apt-get update
-sudo apt-get install nodejs
-```
-
 #### Linux 
 libusb-1.0
 
 ### Installation
-
-```bash
-git clone git@github.com:ags131/node-ld
-cd node-ld
-npm install
-```
 
 ### Windows libUSB setup (Only if using LibUSBTransport)
 #### The following instructions are only needed if using the LibUSBTransport. 
