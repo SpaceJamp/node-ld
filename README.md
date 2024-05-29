@@ -10,7 +10,7 @@ Setup
 
 uninstall the old version of Node. Delete any directories you've been working in.
 
-install 10.15.3 of Node (I did this using nvm but because you're on Windows I'd just do it this way).
+install 10.15.3 of Node.js
 
 pull the repo from GitHub, extract it if needed and navigate to that folder.
 
