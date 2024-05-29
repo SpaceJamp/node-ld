@@ -24,7 +24,7 @@ libusb-1.0
 ### Installation
 
 ```bash
-git clone git@github.com:ags131/node-ld
+git clone git@github.com:SpaceJamp/node-ld
 cd node-ld
 npm install
 ```
