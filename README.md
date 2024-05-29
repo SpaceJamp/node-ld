@@ -8,26 +8,7 @@ NOTE: This does not currently work for the Xbox version of the toypad. It will c
 
 Setup
 
-uninstall the old version of Node. Delete any directories you've been working in.
-
-install 10.15.3 of Node.js
-
-pull the repo from GitHub, extract it if needed and navigate to that folder.
-
-Install
-
-    run npm install --ignore-script 
-This ignores the gyp scripts that are erroring out.
-
-    run npm install 
-which will now work normally without error.
-
-Run
-
-type node `node characters.js` into windows terminal 
-
-You should have a prompt that says Enter NFC's UID: `Type in a number.`
-
+Directions here: https://www.reddit.com/r/node/comments/u92piu/comment/i5pl5fl/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 ### Windows libUSB setup (Only if using LibUSBTransport)
 #### The following instructions are only needed if using the LibUSBTransport. 
