@@ -12,6 +12,8 @@ Tested and developed on node.js 4.1+
 
 I also have a repo available for PC and Arm 
 
+Better instructions here: https://www.reddit.com/r/node/comments/u92piu/comment/i5pl5fl/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
 ```bash
 wget -O - http://repo.ags131.com/install.sh | sudo bash -
 sudo apt-get update
