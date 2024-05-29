@@ -4,6 +4,8 @@
 
 ![npm](https://nodei.co/npm/node-ld.png "NPM")
 
+**Better instructions here**: https://www.reddit.com/r/node/comments/u92piu/comment/i5pl5fl/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
 NOTE: This does not currently work for the Xbox version of the toypad. It will connect but no responses will be received. If someone manages to get it working, please let me know so I can make this more compatible.
 
 ### Requirements 
@@ -11,8 +13,6 @@ Node.js 4.1 or newer. https://nodejs.org
 Tested and developed on node.js 4.1+
 
 I also have a repo available for PC and Arm 
-
-Better instructions here: https://www.reddit.com/r/node/comments/u92piu/comment/i5pl5fl/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 ```bash
 wget -O - http://repo.ags131.com/install.sh | sudo bash -
