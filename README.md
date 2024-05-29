@@ -12,7 +12,6 @@ NOTE: This does not currently work for the Xbox version of the toypad. It will c
 Node.js 4.1 or newer. https://nodejs.org
 Tested and developed on node.js 4.1+
 
-I also have a repo available for PC and Arm 
 
 #### Linux 
 libusb-1.0
