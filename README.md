@@ -26,7 +26,7 @@ Run
 
 type node `node characters.js` into windows terminal 
 
-You should have a prompt that says Enter NFC's UID:. Type in a number.
+You should have a prompt that says Enter NFC's UID: `Type in a number.`
 
 
 ### Windows libUSB setup (Only if using LibUSBTransport)
