@@ -71,18 +71,8 @@
     {        "id": 70,        "name": "Raven",         "world":"Teen Titans Go"},        
     {        "id": 71,        "name": "Beast Boy",     "world":"Teen Titans Go"},
     {        "id": 72,        "name": "Beetle Juice",  "world":"Beetle Juice"},
-    {        "id": 73,        "name": "Lord Vortech",  "world":"Lego Dimensions"},
     {        "id": 74,        "name": "Blossom",        "world":"Power Puff Girls"},        
     {        "id": 75,        "name": "Bubbles",       "world":"Power Puff Girls"},
     {        "id": 76,        "name": "Buttercup",     "world":"Power Puff Girls"},
     {        "id": 77,        "name": "Star Fire",     "world":"Teen Titans Go"},
-    {        "id": 78,        "name": "Test 15",        "world":"15"},        
-    {        "id": 79,        "name": "Test 16",       "world":"16"},
-    {        "id": 80,        "name": "Test 17",       "world":"17"},
-    {        "id": 81,        "name": "Test 16",       "world":"18"},
-    {        "id": 82,        "name": "Test 17",       "world":"19"},
-    {        "id": 83,        "name": "Test 18",        "world":"20"},
-    {        "id": 768,       "name": "Unknown",      "world":"Unknown"},
-    {        "id": 769,       "name": "Supergirl Red Lantern", "world":"Dc Comics"},
-    {        "id": 770,       "name": "Unknown",      "world":"Unknown"}
 ]
