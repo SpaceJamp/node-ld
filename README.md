@@ -22,10 +22,8 @@ Basically, the lines that you are writing to your NFC tag correspond to a few di
 Line 35 will always be 00000000.
 
 Lines 36 and 37 are generated based on the Character/Vehicle ID.
-
-    For Characters, the program combines the NFC Tag’s UID with the Character ID to create a wholly unique string for these lines.
-
-    But for Vehicles, Line 36 is based solely on the Vehicle ID. The NFC Tag UID does not matter for Line 36. Meanwhile, for Vehicles, Line 37 is always 00000000.
+For Characters, the program combines the NFC Tag’s UID with the Character ID to create a wholly unique string for these lines.
+But for Vehicles, Line 36 is based solely on the Vehicle ID. The NFC Tag UID does not matter for Line 36. Meanwhile, for Vehicles, Line 37 is always 00000000.
 
 Line 38 identifies which type of token is being used.
 
