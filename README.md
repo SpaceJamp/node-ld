@@ -12,6 +12,76 @@ NOTE: This does not currently work for the Xbox version of the toypad. It will c
 Node.js 4.1 or newer. https://nodejs.org
 Tested and developed on node.js 4.1+
 
+### If you want to write Vehicles
+
+ This will only work for the basic versions of the vehicles.
+How Character and Vehicle Tag Codes Work
+
+Basically, the lines that you are writing to your NFC tag correspond to a few different things.
+
+Line 35 will always be 00000000.
+
+Lines 36 and 37 are generated based on the Character/Vehicle ID.
+
+    For Characters, the program combines the NFC Tag’s UID with the Character ID to create a wholly unique string for these lines.
+
+    But for Vehicles, Line 36 is based solely on the Vehicle ID. The NFC Tag UID does not matter for Line 36. Meanwhile, for Vehicles, Line 37 is always 00000000.
+
+Line 38 identifies which type of token is being used.
+
+    Character tokens will always be 00000000
+
+    Vehicle tokens will always be 00010000
+
+Line 43 is based solely on the NFC Tag’s UID. It is the same regardless of if the tag is being used for a Character or a Vehicle.
+
+A Basic Vehicle Token will always look like this:
+
+    Line 35 (0x23): 00000000
+
+    Line 36 (0x24): STRING BASED ON VEHICLE ID
+
+    Line 37 (0x25): 00000000
+
+    Line 38 (0x26): 00010000
+
+    Line 43 (0x2B): STRING BASED ON NFC TAG UID
+
+Because Line 36 for Vehicles is always the same, we can build a table that matches every Vehicle to its corresponding Line 36.
+
+For example, Bad Cop’s Police Car (Vehicle ID 1200), will always produce a Line 36 of E8030000. So a token that contains the Police Car would look like this:
+
+    Line 35 (0x23): 00000000
+
+    Line 36 (0x24): E8030000
+
+    Line 37 (0x25): 00000000
+
+    Line 38 (0x26): 00010000
+
+    Line 43 (0x2B): STRING BASED ON NFC TAG UID
+
+So all we need to do to finish the token is to generate Line 43. Luckily, Line 43 is only based on the NFC Tag’s UID, so it is always the same regardless of if the token is for Characters or for Vehicles. Because our program generates Line 43 when it gives us our Character strings, we can use it to construct our Vehicle strings.
+Steps
+
+    Run the command “node characters.js” (with no quotation marks)
+
+    Your Terminal/Command Line should now say “Enter NFC’s UID”
+
+    Enter the UID and record the output for line 43
+
+    Find your vehicle in the reference sheet
+
+    Write 00000000 to Line 35
+
+    Write the correct code to Line 36 based on the reference sheet
+
+    Write 00000000 to Line 37
+
+    Write 00010000 to Line 38
+
+    Write the output from step 3 to Line 43
+Credit = https://www.reddit.com/r/Legodimensions/comments/rl827n/comment/i7c1rvo/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 #### Linux 
 libusb-1.0
