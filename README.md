@@ -12,7 +12,7 @@ NOTE: This does not currently work for the Xbox version of the toypad. It will c
 Computer with Node.js 4.1 or newer. https://nodejs.org
 Tested and developed on node.js 4.1+
 
-NFC enabled Iphone Download Smart NFC $1.99 on app store and NFC Tools to lock the character chips you write
+NFC enabled Iphone Download Smart NFC ($1.99) on app store and NFC Tools (Free) to lock the character chips you write
 
 ### If you want to write Vehicles
 
