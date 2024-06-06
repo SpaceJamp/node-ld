@@ -9,8 +9,9 @@
 NOTE: This does not currently work for the Xbox version of the toypad. It will connect but no responses will be received. If someone manages to get it working, please let me know so I can make this more compatible.
 
 ### Requirements 
-Node.js 4.1 or newer. https://nodejs.org
+Computer with Node.js 4.1 or newer. https://nodejs.org
 Tested and developed on node.js 4.1+
+NFC enabled Iphone Download Smart NFC $1.99 on app store and NFC Tools to lock the character chips you write
 
 ### If you want to write Vehicles
 
